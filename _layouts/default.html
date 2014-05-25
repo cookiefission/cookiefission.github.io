@@ -6,6 +6,13 @@
     <link rel="shortcut icon" href="/img/s.ico">
     <link rel="stylesheet" type="text/css" href="css/default.css">
     <meta name='author' content='Sean Kenny' />
+    <script src='js/jquery/jquery-2.1.1.js'></script>
+    <script src='js/jquery/jquery.sticky.js'></script>
+    <script>
+      $(document).ready(function() {
+        $('#top-bar').sticky({topSpacing:0});
+      });
+    </script>
   </head>
 
   <body>
@@ -16,7 +23,7 @@
           <nav class="top-bar" data-topbar>
             <ul class="title-area">
               <li class="name">
-              <h1><a href="#">Sean Kenny</a></h1>
+                <h1><a href="#">Sean Kenny</a></h1>
               </li>
               <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
             </ul>
