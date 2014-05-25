@@ -1,49 +1,37 @@
 <!DOCTYPE html>
 <html>
-  <head>
+ <head>
     <meta charset="UTF-8">
     <title>{{ page.title }}</title>
     <link rel="shortcut icon" href="/img/s.ico">
     <link rel="stylesheet" type="text/css" href="css/default.css">
     <meta name='author' content='Sean Kenny' />
-    <script src='js/jquery/jquery-2.1.1.js'></script>
-    <script src='js/jquery/jquery.sticky.js'></script>
-    <script>
-      $(document).ready(function() {
-        $('#top-bar').sticky({topSpacing:0});
-      });
-    </script>
   </head>
 
   <body>
+    <div id="demo_top_wrapper">
+      <div id="demo_top">
+        <div class="demo_container">
+          <div id="my_logo">Our logo</div>
+        </div>
+      </div>
+      <div id="sticky_navigation_wrapper">
+        <div id="sticky_navigation">
+          <div class="demo_container">
+            <ul>
+              <li><a href="#" class="selected">HOME</a></li>
+              <li><a href="#">ABOUT US</a></li>
+              <li><a href="#">SERVICES</a></li>
+              <li><a href="#">CLIENTS</a></li>
+              <li><a href="#">PARTNERS</a></li>
+              <li><a href="#">CONTACT</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
     <div class='center base'>
       <div class='container'>
-        <div class='header'>
-          <div class="sticky fixed">
-          <nav class="top-bar" data-topbar>
-            <ul class="title-area">
-              <li class="name">
-                <h1><a href="#">Sean Kenny</a></h1>
-              </li>
-              <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
-            </ul>
-            <section class="top-bar-secton">
-              <ul class="right">
-                <li class="active"><a href="#">Right Button Active</a></li>
-                <li class="has-dropdown">
-                <a href="#">Right Button Dropdown</a>
-                <ul class="dropdown">
-                  <li><a href="#">First link in dropdown</a></li>
-                </ul>
-                </li>
-              </ul>
-              <ul class="left">
-                <li><a href="#">Left Nav Button</a></li>
-              </ul>
-            </section>
-          </nav>
-        </div>
-        </div>
         <div class='main'>
           {{ content }}
         </div>
