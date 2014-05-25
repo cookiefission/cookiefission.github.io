@@ -1,0 +1,5 @@
+@mixin fuzzy-background($image, $central-background-color, $outside-background-color) {
+  background: url($image), -webkit-gradient(radial, 50% 0%, 0, 50% 0%, 750, color-stop(0%, $central-background-color), color-stop(100%, $outside-background-color));
+  background: url($image), -moz-radial-gradient(top center, circle, $central-background-color 0%, $outside-background-color 750px);
+  background: url($image), radial-gradient(top center, circle, $central-background-color 0%, $outside-background-color 750px);
+}

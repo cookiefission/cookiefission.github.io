@@ -4,20 +4,15 @@
   margin: 0;
 }
 
-.fuzzyback, html {
-  background: url(../img/noise.png), -webkit-gradient(radial, 50% 0%, 0, 50% 0%, 750, color-stop(0%, #0077ff), color-stop(100%, #0e63c2));
-  background: url(../img/noise.png), -moz-radial-gradient(top center, circle, #0077ff 0%, #0e63c2 750px);
-  background: url("/img/noise.png"), radial-gradient(top center, circle, #0077ff 0%, #0e63c2 750px);
+html {
+  background: url("../img/noise.png"), -webkit-gradient(radial, 50% 0%, 0, 50% 0%, 750, color-stop(0%, #0077ff), color-stop(100%, #0e63c2));
+  background: url("../img/noise.png"), -moz-radial-gradient(top center, circle, #0077ff 0%, #0e63c2 750px);
+  background: url("../img/noise.png"), radial-gradient(top center, circle, #0077ff 0%, #0e63c2 750px);
 }
 
 .center {
   margin: auto;
   width: 50%;
-}
-
-.main-body {
-  height: 100%;
-  background-color: blue;
 }
 
 .header {
