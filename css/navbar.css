@@ -5,6 +5,7 @@
 
 #demo_top_wrapper {
   margin: 0 0 20px 0;
+  z-index: 1000;
 }
 
 #demo_top {
