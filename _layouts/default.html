@@ -1,36 +1,57 @@
 <!DOCTYPE html>
 <html>
- <head>
+  <head>
     <meta charset="UTF-8">
     <title>{{ page.title }}</title>
     <link rel="shortcut icon" href="/img/s.ico">
     <link rel="stylesheet" type="text/css" href="css/default.css">
     <meta name='author' content='Sean Kenny' />
+    <script src='js/jquery/jquery-2.1.1.js'></script>
+    <script>
+      $(function() {
+        var sticky_navigation_offset_top = $('#sticky_navigation').offset().top;
+        var sticky_navigation = function(){
+          var scroll_top = $(window).scrollTop(); // our current vertical position from the top
+          if (scroll_top > sticky_navigation_offset_top) { 
+            $('#sticky_navigation').css({ 'position': 'fixed', 'top':0, 'left':0 });
+            } else {
+            $('#sticky_navigation').css({ 'position': 'relative' }); 
+          }   
+        };
+
+        sticky_navigation();
+
+        $(window).scroll(function() {
+          sticky_navigation();
+        });
+
+        $('a[href="#"]').click(function(event){ 
+          event.preventDefault(); 
+        });
+      });
+    </script>
   </head>
 
   <body>
-    <div id="demo_top_wrapper">
-      <div id="demo_top">
-        <div class="demo_container">
-          <div id="my_logo">Our logo</div>
-        </div>
-      </div>
-      <div id="sticky_navigation_wrapper">
-        <div id="sticky_navigation">
+    <div class='center base'>
+      <div id="demo_top_wrapper">
+        <div id="demo_top">
           <div class="demo_container">
-            <ul>
-              <li><a href="#" class="selected">HOME</a></li>
-              <li><a href="#">ABOUT US</a></li>
-              <li><a href="#">SERVICES</a></li>
-              <li><a href="#">CLIENTS</a></li>
-              <li><a href="#">PARTNERS</a></li>
-              <li><a href="#">CONTACT</a></li>
-            </ul>
+            <div id="my_logo">Sean Kenny</div>
+          </div>
+        </div>
+        <div id="sticky_navigation_wrapper">
+          <div id="sticky_navigation">
+            <div class="demo_container">
+              <ul>
+                <li><a href="#" class="selected">HOME</a></li>
+                <li><a href="#">About Me</a></li>
+                <li><a href="https://github.com/sean-kenny">GitHub</a></li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-    <div class='center base'>
       <div class='container'>
         <div class='main'>
           {{ content }}
