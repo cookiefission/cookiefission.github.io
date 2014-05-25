@@ -26,11 +26,13 @@ body {
 }
 
 .top-bar {
-  
+  position: fixed;
+  z-index: 10;
 }
 
 .header {
   height: $header-height;
+  margin-top: 50px;
 }
 
 .main {
