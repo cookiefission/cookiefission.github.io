@@ -1,0 +1,51 @@
+.fullpage, html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+.fuzzyback, html {
+  background: url(../img/noise.png), -webkit-gradient(radial, 50% 0%, 0, 50% 0%, 750, color-stop(0%, #8cb6e6), color-stop(100%, #0e63c2));
+  background: url(../img/noise.png), -moz-radial-gradient(top center, circle, #8cb6e6 0%, #0e63c2 750px);
+  background: url("/img/noise.png"), radial-gradient(top center, circle, #8cb6e6 0%, #0e63c2 750px);
+}
+
+.center {
+  margin: auto;
+  width: 50%;
+}
+
+.main-body {
+  height: 100%;
+  background-color: blue;
+}
+
+.header {
+  height: 60px;
+  background-color: red;
+}
+
+.footer {
+  height: 100px;
+  position: relative;
+  background-color: red;
+}
+
+.base {
+  min-height: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.container {
+  min-height: 100%;
+  margin-bottom: -100px;
+  position: relative;
+}
+
+.clearfooter {
+  height: 300px;
+  clear: both;
+}
+
+/*# sourceMappingURL=default.css.map */

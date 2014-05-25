@@ -1,5 +1,32 @@
-    {% include header.html %}
-    <div class='main-body'>
-      {{ content }}
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>{{ page.title }}</title>
+    <link rel="shortcut icon" href="/img/s.ico">
+    <link rel="stylesheet" type="text/css" href="css/default.css">
+    <meta name='author' content='Sean Kenny' />
+  </head>
+
+  <body>
+    <div class='center base'>
+      <div class='container'>
+        <div class='header'>
+          <div class='center navbar'>
+            <div class='sitename'>Sean Kenny</div>
+          </div>
+        </div>
+        <div class='main-body'>
+          {{ content }}
+        </div>
+        <div class='clearfooter'></div>
+      </div>
+      <div class='footer full-bar'>
+        <div class='center footer'>&copy; Sean Kenny 2014</div>
+      </div>
     </div>
-    {% include foot.html %}
+
+    <!-- Fork me on github banner -->
+    <a href="http://github.com/sean-kenny"><img style="position: absolute; top: 0; right: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub" /></a>
+  </body>
+</html>

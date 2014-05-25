@@ -1,0 +1,64 @@
+$central-background-color: #8CB6E6;
+$outside-background-color: #0E63C2;
+
+.fullpage {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+.fuzzyback {
+  background: url(../img/noise.png), -webkit-gradient(radial, 50% 0%, 0, 50% 0%, 750, color-stop(0%, $central-background-color), color-stop(100%, $outside-background-color));
+  background: url(../img/noise.png), -moz-radial-gradient(top center, circle, $central-background-color 0%, $outside-background-color 750px);
+  background: url("/img/noise.png"), radial-gradient(top center, circle, $central-background-color 0%, $outside-background-color 750px);
+}
+
+html {
+  @extend .fullpage;
+  @extend .fuzzyback;
+}
+
+body {
+  @extend .fullpage;
+}
+
+$header-height: 60px;
+$footer-height: 100px;
+
+.center {
+  margin: auto;
+  width: 50%;
+}
+
+.main-body {
+  height: 100%;
+  background-color: blue;
+}
+
+.header {
+  height: $header-height;
+  background-color: red;
+}
+
+.footer {
+  height: $footer-height;
+  position: relative;
+  background-color: red;
+}
+
+.base {
+  min-height: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.container {
+  min-height: 100%;
+  margin-bottom: (-$footer-height);
+  position: relative;
+}
+
+.clearfooter {
+  height: 300px;
+  clear: both;
+}
