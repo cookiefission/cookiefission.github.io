@@ -9,13 +9,13 @@
     <script src='js/jquery/jquery-2.1.1.js'></script>
     <script>
       $(function() {
-        var sticky_navigation_offset_top = $('#sticky_navigation').offset().top;
+        var sticky_navigation_offset_top = $('.sticky').offset().top;
         var sticky_navigation = function(){
           var scroll_top = $(window).scrollTop(); // our current vertical position from the top
           if (scroll_top > sticky_navigation_offset_top) {
-            $('#sticky_navigation').css({ 'position': 'fixed', 'top':0, 'left':0 });
+            $('.sticky').css({ 'position': 'fixed', 'top':0, 'left':0 });
             } else {
-            $('#sticky_navigation').css({ 'position': 'relative' });
+            $('.sticky').css({ 'position': 'relative' });
           }
         };
 
@@ -35,14 +35,14 @@
   <body>
     <div class='container'>
       <div class='center base'>
-        <div id="demo_top_wrapper">
+        <div class='.header-wrapper'>
           <div id="demo_top">
-            <div class="demo_container">
-              <div id="my_logo">Sean Kenny</div>
+            <div class="text-container">
+              <div class="header-text">Sean Kenny</div>
             </div>
           </div>
-          <div id="sticky_navigation_wrapper">
-            <div id="sticky_navigation">
+          <div class='navbar-wrapper'>
+            <div class='sticky navbar'>
               <div class="demo_container">
                 <ul>
                   <li><a href="#" class="selected">HOME</a></li>
@@ -64,6 +64,6 @@
     </div>
 
     <!-- Fork me on github banner -->
-    <a href="http://github.com/sean-kenny"><img style="position: absolute; top: 0; right: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub" /></a>
+    <a href="http://github.com/sean-kenny"><img style="position: fixed; top: 0; right: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub" /></a>
   </body>
 </html>
