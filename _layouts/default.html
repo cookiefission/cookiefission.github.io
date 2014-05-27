@@ -3,8 +3,8 @@
   <head>
     <meta charset="UTF-8">
     <title>{{ page.title }}</title>
-    <link rel="shortcut icon" href="/img/s.ico">
-    <link rel="stylesheet" type="text/css" href="/css/default.css">
+    <link rel="shortcut icon" href="{{ site.url }}/img/s.ico">
+    <link rel="stylesheet" type="text/css" href="{{ site.url }}/css/default.css">
     <meta name='author' content='Sean Kenny' />
     <script src='js/jquery/jquery-2.1.1.js'></script>
     <script>
@@ -45,8 +45,8 @@
             <div class='sticky navbar'>
               <div class="demo_container">
                 <ul>
-                  <li><a href="/" class="selected">HOME</a></li>
-                  <li><a href="/aboutme/">About Me</a></li>
+                  <li><a href="{{ site.url }}/" class="selected">HOME</a></li>
+                  <li><a href="{{ site.url }}/aboutme/">About Me</a></li>
                   <li><a href="https://github.com/sean-kenny">GitHub</a></li>
                 </ul>
               </div>
