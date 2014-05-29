@@ -1,8 +1,10 @@
 @import 'bourbon/bourbon';
 @import 'navbar';
 
+// Radial Background colours.
 $central-background-color: #0077FF;
 $outside-background-color: #0E63C2;
+
 $header-height: 60px;
 $footer-height: 50px;
 
@@ -34,10 +36,10 @@ body {
 
 .main {
   z-index: -10;
-  font-family: "Helvetica Neue";
+  font-family: $monospace;
   font-weight: 400;
   margin: 10px auto;
-  width: 700px;
+  width: 800px;
   background: #EDE3A4;
   padding: 20px;
   border-radius: 5px;

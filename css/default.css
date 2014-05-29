@@ -84,10 +84,10 @@ html {
 
 .main {
   z-index: -10;
-  font-family: "Helvetica Neue";
+  font-family: "Bitstream Vera Sans Mono", Consolas, Courier, monospace;
   font-weight: 400;
   margin: 10px auto;
-  width: 700px;
+  width: 800px;
   background: #EDE3A4;
   padding: 20px;
   border-radius: 5px;
