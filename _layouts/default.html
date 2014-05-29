@@ -7,29 +7,7 @@
     <link rel="stylesheet" type="text/css" href="{{ site.url }}/css/default.css">
     <meta name='author' content='Sean Kenny' />
     <script src='{{ site.url }}/js/jquery/jquery-2.1.1.js'></script>
-    <script>
-      $(function() {
-        var sticky_navigation_offset_top = $('.sticky').offset().top;
-        var sticky_navigation = function(){
-          var scroll_top = $(window).scrollTop();
-          if (scroll_top > sticky_navigation_offset_top) {
-            $('.sticky').css({ 'position': 'fixed', 'top':0, 'left':0 });
-          } else {
-            $('.sticky').css({ 'position': 'relative' });
-          }
-        };
-
-        sticky_navigation();
-
-        $(window).scroll(function() {
-          sticky_navigation();
-        });
-
-        $('a[href="#"]').click(function(event){
-          event.preventDefault();
-        });
-      });
-    </script>
+    <script src='{{ site.url }}/js/stickynav.js'></script>
   </head>
 
   <body>
