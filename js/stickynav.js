@@ -1,4 +1,4 @@
-$(function() {
+$(document).ready(function() {
   var sticky_navigation_offset_top = $('.sticky').offset().top;
   var sticky_navigation = function(){
     var scroll_top = $(window).scrollTop();
