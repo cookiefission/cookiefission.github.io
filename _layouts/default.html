@@ -8,29 +8,30 @@
     <meta name='author' content='Sean Kenny' />
     <script src='{{ site.url }}/js/jquery/jquery-2.1.1.js'></script>
     <script src='{{ site.url }}/js/stickynav.js'></script>
+    <script src='{{ site.url }}/js/navbar.js'></script>
   </head>
 
   <body>
     <div class='container'>
       <div class='center base'>
-        <div class='.header-wrapper'>
-          <div id="site-top">
-            <div class="text-container">
-              <div class="header-text">Sean Kenny</div>
+        <header class="navigation sticky">
+          <div class="menu-wrapper">
+            <a href="javascript:void(0)" class="logo">
+              <img src="/img/placeholder.png" alt="">
+            </a>
+            <p class="navigation-menu-button" id="js-mobile-menu">MENU</p>
+            <div class="nav">
+              <ul id="navigation-menu">
+                <li class="nav-link"><a href="javascript:void(0)">Home</a></li>
+                <li class="nav-link"><a href="javascript:void(0)">About Me</a></li>
+                <li class="nav-link"><a href="javascript:void(0)">Contact</a></li>
+              </ul>
+            </div>
+            <div class="navigation-tools">
+              <a href="javascript:void(0)" class="sign-up">Sign Up</a>
             </div>
           </div>
-          <div class='navbar-wrapper'>
-            <div class='sticky navbar'>
-              <div class="nav-container">
-                <ul>
-                  <li><a href="{{ site.url }}/" class="selected">Home</a></li>
-                  <li><a href="{{ site.url }}/aboutme/">About Me</a></li>
-                  <li><a href="https://github.com/sean-kenny">GitHub</a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
+        </header>
         <div class='main'>
           {{ content }}
         </div>
