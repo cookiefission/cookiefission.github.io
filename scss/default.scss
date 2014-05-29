@@ -1,5 +1,4 @@
 @import 'bourbon/bourbon';
-@import '_mixins/background';
 @import 'navbar';
 
 $central-background-color: #0077FF;
@@ -15,7 +14,8 @@ $footer-height: 50px;
 
 html {
   @extend .fullpage;
-  @include fuzzy-background("../img/noise.png", $central-background-color, $outside-background-color);
+  background: url('/img/noise.png'), radial-gradient($central-background-color, $outside-background-color);
+  background-attachment: fixed;
 }
 
 body {
