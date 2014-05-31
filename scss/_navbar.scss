@@ -3,7 +3,7 @@
 
 header.navigation {
   $navigation-padding: 1em;
-  $navigation-background: $dark-gray;
+  $navigation-background: #c00;
   $navigation-color: transparentize(white, 0.3);
   $navigation-color-hover: white;
   $navigation-height: 60px;
@@ -22,6 +22,7 @@ header.navigation {
   height: $navigation-height;
   width: 100%;
   z-index: 999;
+  border-bottom: 3px solid #c00;
 
   .menu-wrapper {
     @include outer-container;
