@@ -2,4 +2,12 @@
 layout: default
 title: Experiments
 ---
-<p>Hello Experiments</p>
+<ul>
+  {% for experiment in site.data.experiments %}
+  <li>
+  <a href="{{ site.url }}/experiments/{{ experiment.url }}">
+      {{ experiment.name }}
+    </a>
+  </li>
+  {% endfor %}
+</ul>
