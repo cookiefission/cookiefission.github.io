@@ -1,6 +1,6 @@
 # sean-kenny.github.io
 
-Github pages repo.
+A website for me. Playground for various things. http://sean-kenny.github.io
 
 ## Development
 Run:
