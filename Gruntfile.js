@@ -2,7 +2,7 @@ module.exports = function(grunt) {
   grunt.initConfig({
     bower: {
       target: {
-        rjsConfig: 'js/config.js'
+        rjsConfig: 'js/main.js'
       }
     }
   });

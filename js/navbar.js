@@ -1,4 +1,4 @@
-$(document).ready(function() {
+require(['jquery'], function() {
   var menu = $('#navigation-menu');
   var menuToggle = $('#js-mobile-menu');
 
