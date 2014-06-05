@@ -12,5 +12,3 @@ require.config({
 
   ]
 });
-
-requirejs(['navbar', 'stickynav']);
