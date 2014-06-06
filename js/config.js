@@ -1,6 +1,9 @@
 require.config({
   shim: {
-
+    bpopup: {
+      deps: ['jquery'],
+      exports: 'bPopup'
+    }
   },
   paths: {
     bpopup: "bower_components/bpopup/jquery.bpopup",
