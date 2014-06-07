@@ -10,7 +10,7 @@ require.config({
     jquery: "bower_components/jquery/jquery",
     requirejs: "bower_components/requirejs/require"
   },
-  baseUrl: "js",
+  baseUrl: "/js",
   packages: [
 
   ]
