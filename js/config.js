@@ -10,8 +10,7 @@ require.config({
   paths: {
     bpopup: 'bower_components/bpopup/jquery.bpopup',
     jquery: 'bower_components/jquery/jquery',
-    requirejs: 'bower_components/requirejs/require',
-    crafty: 'bower_components/crafty/crafty'
+    requirejs: 'bower_components/requirejs/require'
   },
   baseUrl: '/js',
   packages: [
