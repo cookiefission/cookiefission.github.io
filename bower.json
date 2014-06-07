@@ -5,7 +5,8 @@
   "dependencies": {
     "jquery": "~1.10.0",
     "bpopup": "~0.9.4",
-    "requirejs": "~2.1.8"
+    "requirejs": "~2.1.8",
+    "crafty": "~0.6.2"
   },
   "location": "js"
 }
