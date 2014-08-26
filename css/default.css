@@ -1,5 +1,5 @@
 body {
-  color: #333333;
+  color: #333;
   font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-size: 1em;
   -webkit-font-smoothing: antialiased;
@@ -42,7 +42,7 @@ p {
 }
 
 a {
-  color: #477dca;
+  color: #477DCA;
   text-decoration: none;
   -webkit-transition: color 0.1s linear;
   -moz-transition: color 0.1s linear;
@@ -57,7 +57,7 @@ a:active, a:focus {
 }
 
 hr {
-  border-bottom: 1px solid #dddddd;
+  border-bottom: 1px solid #DDD;
   border-left: none;
   border-right: none;
   border-top: none;
@@ -70,7 +70,7 @@ img {
 }
 
 abbr, acronym {
-  border-bottom: 1px dotted #dddddd;
+  border-bottom: 1px dotted #DDD;
   cursor: help;
 }
 
@@ -88,7 +88,7 @@ del {
 }
 
 blockquote {
-  border-left: 2px solid #dddddd;
+  border-left: 2px solid #DDD;
   color: #595959;
   margin: 1.5em 0;
   padding-left: 0.75em;
@@ -104,7 +104,7 @@ cite:before {
 
 fieldset {
   background: #f7f7f7;
-  border: 1px solid #dddddd;
+  border: 1px solid #DDD;
   margin: 0 0 0.75em 0;
   padding: 1.5em;
 }
@@ -139,7 +139,7 @@ select[multiple=multiple] {
   transition: border-color;
   background-color: white;
   border-radius: 0.1875em;
-  border: 1px solid #dddddd;
+  border: 1px solid #DDD;
   box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.06);
   font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-size: 1em;
@@ -155,7 +155,7 @@ select[multiple=multiple]:hover {
 textarea:focus,
 input[type="email"]:focus, input[type="number"]:focus, input[type="password"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="text"]:focus, input[type="url"]:focus, input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="month"]:focus, input[type="time"]:focus, input[type="week"]:focus,
 select[multiple=multiple]:focus {
-  border-color: #477dca;
+  border-color: #477DCA;
   box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.06), 0 0 5px rgba(55, 112, 192, 0.7);
   outline: none;
 }
@@ -204,7 +204,7 @@ th {
 }
 
 td {
-  border-bottom: 1px solid #dddddd;
+  border-bottom: 1px solid #DDD;
   padding: 0.75em 0;
 }
 
@@ -236,7 +236,7 @@ dl dd {
 }
 
 header.navigation {
-  background-color: #cc0000;
+  background-color: #c00;
   border-bottom: 1px solid #990000;
   font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   height: 60px;
@@ -318,7 +318,7 @@ header.navigation ul#navigation-menu {
   }
 }
 header.navigation ul li {
-  background: #cc0000;
+  background: #c00;
   display: block;
   line-height: 60px;
   overflow: hidden;
@@ -399,7 +399,7 @@ header.navigation .submenu li a {
 @media screen and (min-width: 53.75em) {
   header.navigation .submenu li a {
     width: 12em;
-    background-color: #cc0000;
+    background-color: #c00;
     text-align: left;
     padding-left: 1em;
   }
@@ -430,7 +430,7 @@ header.navigation a.sign-up {
   -moz-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
   display: inline;
-  background: #477dca;
+  background: #477DCA;
   border-radius: 0.1875em;
   color: white;
   font-size: .8em;
@@ -526,7 +526,7 @@ header.navigation .search-bar .search-and-submit button[type=submit] img {
 }
 
 body {
-  color: #333333;
+  color: #333;
   font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-size: 1em;
   -webkit-font-smoothing: antialiased;
@@ -569,7 +569,7 @@ p {
 }
 
 a {
-  color: #477dca;
+  color: #477DCA;
   text-decoration: none;
   -webkit-transition: color 0.1s linear;
   -moz-transition: color 0.1s linear;
@@ -584,7 +584,7 @@ a:active, a:focus {
 }
 
 hr {
-  border-bottom: 1px solid #dddddd;
+  border-bottom: 1px solid #DDD;
   border-left: none;
   border-right: none;
   border-top: none;
@@ -597,7 +597,7 @@ img {
 }
 
 abbr, acronym {
-  border-bottom: 1px dotted #dddddd;
+  border-bottom: 1px dotted #DDD;
   cursor: help;
 }
 
@@ -615,7 +615,7 @@ del {
 }
 
 blockquote {
-  border-left: 2px solid #dddddd;
+  border-left: 2px solid #DDD;
   color: #595959;
   margin: 1.5em 0;
   padding-left: 0.75em;
@@ -631,7 +631,7 @@ cite:before {
 
 fieldset {
   background: #f7f7f7;
-  border: 1px solid #dddddd;
+  border: 1px solid #DDD;
   margin: 0 0 0.75em 0;
   padding: 1.5em;
 }
@@ -666,7 +666,7 @@ select[multiple=multiple] {
   transition: border-color;
   background-color: white;
   border-radius: 0.1875em;
-  border: 1px solid #dddddd;
+  border: 1px solid #DDD;
   box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.06);
   font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-size: 1em;
@@ -682,7 +682,7 @@ select[multiple=multiple]:hover {
 textarea:focus,
 input[type="email"]:focus, input[type="number"]:focus, input[type="password"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="text"]:focus, input[type="url"]:focus, input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="month"]:focus, input[type="time"]:focus, input[type="week"]:focus,
 select[multiple=multiple]:focus {
-  border-color: #477dca;
+  border-color: #477DCA;
   box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.06), 0 0 5px rgba(55, 112, 192, 0.7);
   outline: none;
 }
@@ -731,7 +731,7 @@ th {
 }
 
 td {
-  border-bottom: 1px solid #dddddd;
+  border-bottom: 1px solid #DDD;
   padding: 0.75em 0;
 }
 
@@ -763,7 +763,7 @@ dl dd {
 }
 
 html {
-  background: url("/img/noise.png"), radial-gradient(#0077ff, #0e63c2);
+  background: url("/img/noise.png"), radial-gradient(#0077FF, #0E63C2);
   background-attachment: fixed;
 }
 
