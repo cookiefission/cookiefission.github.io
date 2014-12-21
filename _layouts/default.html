@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>{{ page.title }}</title>
+    <link rel="shortcut icon" href="{{ site.url }}/img/s.png">
+    <link rel="stylesheet" type="text/css" href="{{ site.url }}/css/default.css">
+    <meta name='author' content='Sean Kenny' />
+    <script data-main='/js/default' src='/js/bower_components/requirejs/require.js'></script>
+  </head>
+
+  <body>
+    <div class='container'>
+      <div class='center base'>
+        <header class="navigation sticky">
+          <div class="menu-wrapper">
+            <a href="/" class="logo">
+              <img src="/img/placeholder.png" alt="">
+            </a>
+            <p class="navigation-menu-button" id="js-mobile-menu">MENU</p>
+            <div class="nav">
+              <ul id="navigation-menu">
+                <li class="nav-link"><a href="/">Home</a></li>
+                <li class="nav-link"><a href="/aboutme">About Me</a></li>
+              </ul>
+            </div>
+          </div>
+        </header>
+        <div class='main'>
+          {{ content }}
+        </div>
+        <div class='clearfooter'></div>
+      </div>
+      <div class='footer full-bar'>
+        <div class='center footer'>&copy; Sean Kenny 2014</div>
+      </div>
+    </div>
+  </body>
+</html>
