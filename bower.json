@@ -4,8 +4,8 @@
   "private": true,
   "dependencies": {
     "jquery": "~1.10.0",
-    "bpopup": "~0.9.4",
-    "requirejs": "~2.1.8"
+    "requirejs": "~2.1.8",
+    "octicons": "~2.1.2"
   },
   "location": "js"
 }
