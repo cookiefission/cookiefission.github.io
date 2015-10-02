@@ -10,3 +10,4 @@ github_username: sean-kenny
 
 # Build settings
 markdown: kramdown
+permalink: pretty
