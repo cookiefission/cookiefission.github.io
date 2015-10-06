@@ -1,7 +1,6 @@
 ---
 layout: page
 title: About
-permalink: /about/
 ---
 
-Ruby Developer living near Manchester
+Ruby developer living near Manchester, UK.
