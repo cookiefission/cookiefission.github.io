@@ -4,9 +4,9 @@ email: sean.kenny@hotmail.com
 description: >
     Various ramblings. All to be taken with a pinch of salt.
 baseurl: ""
-url: "https://sean-kenny.github.io"
-twitter_username: sean_kenny_
-github_username: sean-kenny
+url: "https://cookiefission.github.io"
+twitter_username: cookiefission
+github_username: cookiefission
 
 # Build settings
 markdown: kramdown

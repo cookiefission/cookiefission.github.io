@@ -1,6 +1,6 @@
-# sean-kenny.github.io
+# cookiefission.github.io
 
-A website for me. Playground for various things. http://sean-kenny.github.io
+A website for me. Playground for various things. http://cookiefission.github.io
 
 ## Development
 Run:
